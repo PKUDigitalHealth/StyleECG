@@ -1,0 +1,15 @@
+nohup: 忽略输入
+Traceback (most recent call last):
+  File "/home/wangkexin/ECGstyle/main.py", line 1, in <module>
+    from train import train, eval
+  File "/home/wangkexin/ECGstyle/train.py", line 17, in <module>
+    from load import CustomSegmentationDataset
+  File "/home/wangkexin/ECGstyle/load.py", line 2, in <module>
+    import clip
+  File "/home/wangkexin/ECGstyle/clip/__init__.py", line 1, in <module>
+    from .clip import *
+  File "/home/wangkexin/ECGstyle/clip/clip.py", line 14, in <module>
+    from .simple_tokenizer import SimpleTokenizer as _Tokenizer
+  File "/home/wangkexin/ECGstyle/clip/simple_tokenizer.py", line 7, in <module>
+    import regex as re
+ModuleNotFoundError: No module named 'regex'
